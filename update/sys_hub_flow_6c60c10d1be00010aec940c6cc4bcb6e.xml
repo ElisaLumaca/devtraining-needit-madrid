@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow to find NeedIt Tasks olders than the number of days in the auto close application property, close them, and open follow-up task for management </description>
+        <internal_name>find_and_close_long_overdue_needit_task</internal_name>
+        <label_cache>[{"name":"7633b08e-319d-4b89-a220-f5383eff0ff1.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"7633b08e-319d-4b89-a220-f5383eff0ff1.Record","label":"3➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"98f7b9be-6482-4e47-b835-46afc421ccf8.property_value","label":"1➛Property value","type":"string","base_type":"string"},{"name":"7633b08e-319d-4b89-a220-f5383eff0ff1.Record.additional_assignee_list","label":"3➛NeedIt Task Record➛Additional assignee list","reference":"sys_user","reference_display":"Additional assignee list","type":"glide_list","base_type":"glide_list","parent_table_name":"x_58872_needit_needit_task","column_name":"additional_assignee_list"},{"name":"7633b08e-319d-4b89-a220-f5383eff0ff1.Record.group_list","label":"3➛NeedIt Task Record➛Group list","reference":"sys_user_group","reference_display":"Group list","type":"glide_list","base_type":"glide_list","parent_table_name":"x_58872_needit_needit_task","column_name":"group_list"},{"name":"7633b08e-319d-4b89-a220-f5383eff0ff1.Record.number","label":"3➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"7633b08e-319d-4b89-a220-f5383eff0ff1.Record.due_date","label":"3➛NeedIt Task Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit_task","column_name":"due_date"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Find and Close Long Overdue NeedIt Task </name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-15 14:45:04</sys_created_on>
+        <sys_id>6c60c10d1be00010aec940c6cc4bcb6e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Find and Close Long Overdue NeedIt Task </sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_6c60c10d1be00010aec940c6cc4bcb6e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-15 15:50:25</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=6c60c10d1be00010aec940c6cc4bcb6e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6c60c10d1be00010aec940c6cc4bcb6e"/>
+</record_update>
